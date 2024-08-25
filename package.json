@@ -1,0 +1,26 @@
+{
+  "name": "mevin-web",
+  "version": "0.1.0",
+  "description": "dating website built with react",
+  "main": "src/component/Navbar/Navbar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "'https://github.com/starkMrSnow/Mevin-Web.git'"
+  },
+  "keywords": [
+    "dating",
+    "website",
+    "react",
+    "mevin"
+  ],
+  "author": "Stark",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "^5.0.1"
+  }
+}
