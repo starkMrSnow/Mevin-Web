@@ -1,0 +1,10 @@
+h1{
+  font-family: "Irish Grover", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.landing {
+    padding: 20px;
+    background-color: lightblue; /* Makes sure the content is visible */
+    min-height: 85vh; /* Ensure it takes the remaining height of the viewport */
+  }
