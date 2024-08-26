@@ -18,30 +18,61 @@ h1 {
 .rectangle {
   padding: 10px;
   width: 700px;
-  height: 300px;
+  height: 300px; /* Adjust height to fit content */
   background-color: #4D04E7;
   position: relative;
   margin-left: 35vw;
   margin-top: 4vh;
   border-radius: 6px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-between; /* Keep the paragraph and image aligned side by side */
+  align-items: flex-start; /* Align items to the top */
+  flex-wrap: wrap; /* Allow items to wrap if necessary */
 }
 
 .paragraph {
   color: #FFFFFF;
-  width: 40%;
-  padding-left: 10px;
+  width: 45%; /* Ensures paragraph takes up left side */
   font-weight: 300;
- 
+}
+.Harnes-p{
+    margin-top: 5vw;
+}
+
+.sep {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px; /* Space between the two black boxes */
+  margin-top: 10px; /* Space below the paragraph */
+}
+
+.blackbox {
+    width: 100px;
+    height: 40px;
+    color: #FFFFFF;
+    background-color: black;
+    padding: 5px;
+    justify-content: center;
+    margin: 10px;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+}
+
+.getOn {
+    margin-top: -5px;
+    font-size: 8px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    text-align: center;
 }
 
 .lovers {
-  width: 50vh;
-  height: 65vh;
-  margin-top: -11.7vh;
-  margin-right: 10vh;
+  width: 20vw; 
+  height: 60vh;
+  margin-left: 300px; 
+  margin-top: -255px;
 }
 
 .phonead {
@@ -50,16 +81,11 @@ h1 {
   bottom: 10px;
   left: 10px;
   width: 25vw;
-  height: 25;
-  margin-top: 5vh;
+  height: auto;
 }
-.rectangle div {
-    display: flex;
-    justify-content: flex-start;
-    gap: 20px; /* Adds space between the two images */
-    margin-top: 10px; /* Adds some space between the paragraph and the images */
-  }
-.playstore, .applestore {
-    width: 100px; /* Adjust as needed */
-    height: auto;
-  }
+.Emoji{
+    position: absolute;
+    margin: 0;
+    top: 15px;
+    right: 60px;
+}
